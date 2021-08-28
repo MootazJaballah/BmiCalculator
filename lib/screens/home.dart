@@ -106,9 +106,11 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Text(
                 "Calculate",
                 style: TextStyle(
-                    fontSize: 22,
-                    fontWeight: FontWeight.bold,
-                    color: accentHexColor),
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  color: accentHexColor,
+                  decoration: TextDecoration.underline,
+                ),
               ),
             ),
             SizedBox(
